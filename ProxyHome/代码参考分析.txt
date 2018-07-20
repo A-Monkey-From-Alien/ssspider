@@ -1,0 +1,96 @@
+***********************************************
+*  校验IP的地址--->  http://httpbin.org/        *
+*  从这10个案例中共分析出了35个源,在文件IPsource中  *
+***********************************************
+
+一、--------------------------------------------------------
+ip参考proxyspider-master的源
+
+说明:此代理使用requests直接爬取,直接存储到了七牛云上面.
+http://ab57.ru/downloads/proxyold.txt
+http://www.proxylists.net/http_highanon.txt
+http://www.atomintersoft.com/high_anonymity_elite_proxy_list
+http://www.atomintersoft.com/transparent_proxy_list
+http://www.atomintersoft.com/anonymous_proxy_list
+http://www.proxy4free.info/
+http://tools.rosinstrument.com/proxy/plab100.xml
+https://www.rmccurdy.com/scripts/proxy/good.txt
+http://proxy.ipcn.org/proxylist2.html
+http://best-proxy.ru/feed
+http://uks.pl.ua/script/getproxy.php?last
+
+二、--------------------------------------------------------
+ip参考ProxyPool-master2的源
+
+说明:python书写的爬虫,此代理的优点在于实时检测代理的时效性,根据阀值,进行爬虫的启动和停止并且进行增改删查,全部自动化.
+http://www.proxy360.cn/default.aspx
+http://www.66ip.cn/{}.html
+http://www.kuaidaili.com/free/inha/{}/
+http://www.xicidaili.com/nn/{}
+
+三、--------------------------------------------------------
+ip参考ProxyPool-master的源
+
+说明:GO语言书写的爬虫,只能利用源了~~~
+http://www.data5u.com/free/index.shtml
+http://www.ip181.com/
+https://list.proxylistplus.com/Fresh-HTTP-Proxy-List-1
+http://www.xdaili.cn/freeproxy.html
+http://www.youdaili.net/Daili/http/
+
+四、--------------------------------------------------------
+ip参考proxy_pool-master2的源
+
+说明:Python scrapy框架书写的爬虫
+http://www.3464.com/data/Proxy/http/
+http://ip.baizhongsou.com/
+https://proxy.coderbusy.com/
+http://www.goubanjia.com/free/index{}.shtml
+http://www.httpsdaili.com/?stype=1
+http://www.ip3366.net/free/?stype=1
+http://www.iphai.com/free/ng
+http://www.kxdaili.com/dailiip/{0}/{1}.html#ip
+http://www.mimiip.com/gngao
+http://www.nianshao.me/?stype=1&page=1
+http://www.yun-daili.com/free.asp?page=1
+
+五、--------------------------------------------------------
+ip参考proxy_pool-master的源
+说明：代理源应用为上面已经存在的代理源．
+此项目的优势在于使用了SSD数据库进行存储~，并且对代理进行了校验~
+还封装好了Dockerfile的文件
+
+六、--------------------------------------------------------
+ip参考proxy_list-master的源
+
+说明：进程间队列可供参考~ from gevent import monkey
+                      monkey.patch_all()
+gevent　模块需要研究一下
+
+七、--------------------------------------------------------
+ip参考IPProxyTool-master的源
+
+说明：此项目所提供的源大多数都无法访问，优点在于提供了验证模块．还封装好了Dockerfile的文件,
+数据库链接操作的封装
+http://proxydb.net/?protocol=http&protocol=https&
+
+八、--------------------------------------------------------
+ip参考IPProxyPool-master的源
+
+说明: 无新源，项目没什么亮点．
+
+九、--------------------------------------------------------
+ip参考haipproxy-master的源
+
+~!@#$%^&*()  THE BEST  ~!@#$%^&*()
+说明:这是高分布式超级经典的例子，还封装好了Dockerfile的文件,过滤代理，去掉透明ip
+http://www.mogumiao.com/proxy/free/listFreeIp
+http://www.mrhinkydink.com/proxies.htm
+http://www.swei360.com
+https://www.us-proxy.org/
+https://www.cool-proxy.net/proxies/
+
+十、--------------------------------------------------------
+ip参考dungproxy-master的源
+
+说明:Java的IP爬虫，看起来好像很牛逼，但是乱的一ｐ
